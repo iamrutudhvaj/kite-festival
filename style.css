@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: rgb(248, 235, 235);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#home {
+    color: skyblue;
+}
+
+#about-us {
+    color: rgb(148, 148, 6);
+}
+
+#gallery {
+    color: rgb(109, 5, 107);
+}
+
+#contact-us {
+    color: rgb(206, 37, 37);
+}
+
+.logo-img {
+    cursor: pointer;
+}
+
+#help {
+    color: rgb(4, 93, 129);
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list .li-list {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.li-list-a {
+    text-decoration: none;
+}
+
+.nav-list .li-list .li-list-a {
+    font-size: 30px;
+    color: #fff;
+}
+
+.nav-list .li-list .li-list-a:hover {
+    transition: all 0.3s ease 0s;
+    border-bottom: 2px solid #0a0909;
+    padding-bottom: 4px;
+}
+
+.background-img {
+    height: 100vh;
+    width: 100%;
+}
+
+.heading {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.h1 {
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.heading .h1:hover {
+    /* transition: all 0.3s ease 0s; */
+    border-bottom: 2px solid #0a0909;
+    padding-bottom: 4px;
+}
+
+.about {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /* background-color: aquamarine; */
+}
+
+.about-img {
+    padding-left: 40px;
+    height: 80vh;
+    width: 90%;
+    /* background-color: #000; */
+}
+
+.about-content {
+    font-size: 20px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.about-content p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    /* display: flex; */
+    /* padding-bottom: ; */
+}
+
+.about-content h2 {
+
+    /* padding-bottom: 180px; */
+    font-size: 60px;
+}
+
+.read-more {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 800;
+    color: chocolate;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
+    margin: o auto;
+    position: relative;
+    gap: 12px;
+    /* opacity: 0; */
+    /* transition: 0.6s; */
+}
+
+.gallery-img {
+    width: 30%;
+    gap: 20px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.gallery-img:hover {
+    opacity: 0.3;
+}
+
+.middle:hover {
+    opacity: 0.4;
+
+}
+
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+footer {
+    background-color: antiquewhite;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 70px 30px 20px;
+
+}
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.socialicons .social-media-icon {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons .social-media-icon i {
+    font-size: 2em;
+    color: #000;
+    opacity: 0.9;
+}
+
+.socialicons .social-media-icon:hover {
+    background-color: rgb(253, 226, 189);
+    transition: 0.5s;
+}
+
+.socialicons .social-media-icon:hover i {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.footer-nav {
+    margin: 30px 0;
+}
+
+.footer-nav .footer-nav-list {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-li {
+    list-style: none;
+}
+
+.footer-nav .footer-nav-list .footer-li .footer-a {
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    /* list-style: none; */
+}
+
+.footer-nav .footer-nav-list .footer-li .footer-a:hover {
+    opacity: 1;
+}
+
+.footer-bottom {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-bottom-p{
+    text-align: center;
+}
+.deasigner{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
